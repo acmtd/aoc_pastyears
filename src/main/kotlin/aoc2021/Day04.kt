@@ -1,3 +1,8 @@
+package aoc2021
+
+import println
+import readBlocks
+
 fun main() {
     val testData = readBlocks("2021_Day04_test")
     check(part1(testData) == 4512)

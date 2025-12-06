@@ -1,3 +1,8 @@
+package aoc2021
+
+import println
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         return input.map { it.toInt() }.zipWithNext().count { it.second > it.first }

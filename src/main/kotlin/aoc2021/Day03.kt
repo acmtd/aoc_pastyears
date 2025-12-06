@@ -1,3 +1,8 @@
+package aoc2021
+
+import println
+import readInput
+
 fun main() {
     fun pivot(input: List<String>): List<String> {
         return buildList {
