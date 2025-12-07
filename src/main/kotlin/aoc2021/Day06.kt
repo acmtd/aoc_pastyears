@@ -28,7 +28,7 @@ class Day06 {
 
     private fun compute(input: List<String>, iterations: Int): Long {
         val timerCounts = input.first().split(",").map { it.toInt() }.groupingBy { it }.eachCount()
-            .mapValues { it.value.toLong() } // Converts the Int value to Long
+            .mapValues { it.value.toLong() }
             .toMutableMap()
 
         repeat(iterations) {
